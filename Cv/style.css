@@ -158,3 +158,24 @@ header address ul {
 .download-cv-link {
     transition: background-color 0.5s;
 }
+
+#myBtn {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 20px;
+    left: 30px;
+    border: none;
+    color: black;
+    background-color: #007ced;
+    border-radius: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    z-index: 99;
+    font-weight: bold;
+}
+
+#myBtn:hover {
+    background: none;
+    color: #007ced;
+}
